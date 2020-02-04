@@ -3,6 +3,8 @@ def valid_move?(board, index)
    true
  elsif board[index] == "X" || "O"
     false
+  elsif board[index] != (1,9)
+    false
   end
 end# code your #valid_move? method here
 
