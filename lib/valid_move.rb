@@ -1,6 +1,5 @@
 def validmove?(board,index)
-  if board[index] == " "
-    true
+
 end# code your #valid_move? method here
 
 
