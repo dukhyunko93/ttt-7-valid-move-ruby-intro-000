@@ -6,6 +6,9 @@ def valid_move?(board, index)
  end
  if between? = (1,9)
    true
+ else
+   false
+ end
 end# code your #valid_move? method here
 
 
