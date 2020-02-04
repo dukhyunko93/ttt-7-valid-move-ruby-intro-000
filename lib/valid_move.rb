@@ -1,4 +1,4 @@
-def validmove?(board,index)
+def validmove?(board, index)
  if board[index] == " "
    true
  end
